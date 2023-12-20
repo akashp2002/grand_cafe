@@ -10,6 +10,7 @@ function LayoutRouter() {
     <Header/>
      <Routes>
      <Route path='/' element={<SideBarComponent/>} />
+     <Route path='/grand_cafe' element={<SideBarComponent/>} />
     <Route path='/banner' element={<Banner/>}/>    
     </Routes>   
     </Router>     
